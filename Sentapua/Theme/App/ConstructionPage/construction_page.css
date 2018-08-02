@@ -1,0 +1,47 @@
+*,*:after,*:before{-moz-box-sizing:border-box;box-sizing:border-box;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;text-rendering:optimizeLegibility}html,body{width:100%;height:100%;margin:0;padding:0}
+body {
+    background: url('https://doc-14-8o-docs.googleusercontent.com/docs/securesc/rog34diujr8899lh5tts9tiebjk3k5o5/5ad7f730sd1rh41mipgpfnevc6n56lt3/1533139200000/14284447307227911998/14284447307227911998/1vYERl3H3DbuhRNigDCq2Z0nqCM07M7xL') center center no-repeat;
+    background-size: cover;
+}
+#overlay {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51,0,102,.75);
+    align-items: center;
+}
+.page-content {
+    text-align: center;
+}
+
+.page-content h1 {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #FFF;
+    font-size: 60px;
+    letter-spacing: -4px;
+    margin: -10px 0 0 0;
+    padding: 0;
+}
+span.spacer {
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: #FFF;
+    margin: 0 auto;
+}
+.page-content p{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FFF;
+    font-size: 20px;
+    margin: 8px;
+    padding: 0;
+}
+.page-content p a{
+    font-weight: 900;
+    text-decoration: none;
+    color: #FFF;
+}
