@@ -11,7 +11,7 @@ class Init
     public static function get_services()
     {
         return [
-        	Theme\App\Update::class,
+        	//Theme\App\Update::class,
 			Theme\Enqueue::class,
 			Theme\Setup::class,
 	        Theme\App\Config::class,
