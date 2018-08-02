@@ -1,12 +1,5 @@
 <?php
-/**
- * Plugin Update Checker Library 4.4
- * http://w-shadow.com/
- * 
- * Copyright 2017 Janis Elsts
- * Released under the MIT license. See license.txt for details.
- */
-$path = get_template_directory() . '/Sentapua/Theme/App/updater';
+$path = get_template_directory() . '/updater';
 
 require $path . '/Puc/v4p4/Factory.php';
 require $path . '/Puc/v4/Factory.php';

@@ -35,7 +35,7 @@ if ( file_exists( get_template_directory() . '/Sentapua/RequiredBase.php' ) )
 
 					require 'updater/plugin-update-checker.php';
 
-					$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+					$SentapuaUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 
 						'https://github.com/ricardoamb/asdc/',
 						__FILE__,
@@ -44,11 +44,11 @@ if ( file_exists( get_template_directory() . '/Sentapua/RequiredBase.php' ) )
 					);
 
 					//Optional: If you're using a private repository, specify the access token like this:
-					$myUpdateChecker->setAuthentication('02f00b1f01ff56f41637692e8cb17550b75801a3');
+					$SentapuaUpdateChecker->setAuthentication('02f00b1f01ff56f41637692e8cb17550b75801a3');
 
 					//Optional: Set the branch that contains the stable release.
-					$myUpdateChecker->setBranch('stable');
-					$myUpdateChecker->checkForUpdates();
+					$SentapuaUpdateChecker->setBranch('stable');
+					$SentapuaUpdateChecker->checkForUpdates();
 
 				}
 
